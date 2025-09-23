@@ -1,11 +1,89 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Página Personal Mafer Campos</title>
+<style>
+        /* 
+        Estructura de css
+        selector {
+            propiedad: valor;
+        } 
+        */
+        /* selector de universal **/
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Selector Etiqueta*/
+        header {
+            background-color: rgb(105, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /*Selector clase .clase*/
+        /*class="card" -- .card*/
+        .card {
+            background-color: lightpink;
+            padding: 10px 15px;
+        }
+        /* Selector ID #id*/
+        /*id="btn" -- #btn*/
+        #btn {
+            border: none;
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1 >Bienvenido a mi paguina personal</h1>
+        <img src= "file:///C:/Users/marif/OneDrive/Escritorio/Fondos%20pantalla/Umbrella%20x%20Squigly.jpg"> alt="Mi foto de perfil" width="100%" />
+        <h2>Soy Maria Fernanda - Student</h2>
+    </header>
+    <main>
+        <section class="card">
+            <h3>Curiosidades sobre mi</h3>
+            <ul>
+                <li>Estudiante Universitaria</li>
+                <li>Vivo en huamantla</li>
+                <li>Maria </li>
+                <li>Fernanda </li>
+                <li>Campos</li>
+                <li>Máximo</li>
+            </ul>
+        </section>
+        <section>
+            <h3> Mis tres animales</h3>
+            <ol>
+                <li>Gatos🐈‍⬛</li>
+                <li>Conejos🐇</li>
+                <li>Mapaches🦝</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Peliculas favoritas</h3>
+            <ol>
+                <li>el conjuro</li>
+                <li>Guardianes de la galaxia</li>
+                <li>Kimetsu no yaiba</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Visita mi perfil en <a href="https://github.com/marifercam/marifercam.github.io.git">Github</a></p>
+        <input type="text" placeholder="email">
+        <button id="btn">Suscríbete!</button>
+    </footer>
     
+
 </body>
+
 </html>
