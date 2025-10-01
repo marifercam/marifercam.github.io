@@ -1,89 +1,73 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Personal Mafer Campos</title>
-<style>
-        /* 
-        Estructura de css
-        selector {
-            propiedad: valor;
-        } 
-        */
-        /* selector de universal **/
-        * {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        /* Selector Etiqueta*/
-        header {
-            background-color: rgb(105, 0, 0);
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        /*Selector clase .clase*/
-        /*class="card" -- .card*/
-        .card {
-            background-color: lightpink;
-            padding: 10px 15px;
-        }
-        /* Selector ID #id*/
-        /*id="btn" -- #btn*/
-        #btn {
-            border: none;
-            background-color: blue;
-            color: white;
-            padding: 20px;
-            cursor: pointer;
-        }
-    </style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- <etiqueta atributo="valor">
+    contenido
+</etiqueta> -->
     <header>
-        <h1 >Bienvenido a mi paguina personal</h1>
-        <img src= "file:///C:/Users/marif/OneDrive/Escritorio/Fondos%20pantalla/Umbrella%20x%20Squigly.jpg"> alt="Mi foto de perfil" width="100%" />
-        <h2>Soy Maria Fernanda - Student</h2>
+        
+        <div>
+            <h1 >Bienvenido a mi pagina personal </h1>
+        <header>
+    <div>
+        <div class="profile">
+            <video autoplay muted loop playsinline>
+                <source src="koda.mp4" type="video/mp4">
+                Tu navegador no soporta video en HTML5.
+            </video>
+        </div>
+</header>
+
+        <h2>Soy Maria Fernanda - Estudiante</h2>
+        </div>
     </header>
     <main>
         <section class="card">
+            <img src="./yo.jpeg" alt="sobre mi">
             <h3>Curiosidades sobre mi</h3>
             <ul>
                 <li>Estudiante Universitaria</li>
                 <li>Vivo en huamantla</li>
-                <li>Maria </li>
-                <li>Fernanda </li>
-                <li>Campos</li>
-                <li>Máximo</li>
+                <li>Me gusta leer </li>
+                <li>Comer pizza </li>
+                <li>Musica de rock</li>
+                <li>salir con mis amigos</li>
             </ul>
         </section>
         <section>
+            <img src="./descarga.jpeg" alt="favoritos">
             <h3> Mis tres animales</h3>
-            <ol>
+            <ul>
                 <li>Gatos🐈‍⬛</li>
                 <li>Conejos🐇</li>
                 <li>Mapaches🦝</li>
-            </ol>
+            </ul>
         </section>
         <section>
+            <img src="./Peter.jpeg" alt="favoritos">
             <h3>Peliculas favoritas</h3>
-            <ol>
-                <li>el conjuro</li>
+            <ul>
+                <li>El conjuro</li>
                 <li>Guardianes de la galaxia</li>
                 <li>Kimetsu no yaiba</li>
-            </ol>
+            </ul>
         </section>
     </main>
     <footer>
         <p>Visita mi perfil en <a href="https://github.com/marifercam/marifercam.github.io.git">Github</a></p>
+    <div>
         <input type="text" placeholder="email">
         <button id="btn">Suscríbete!</button>
+    </div>
     </footer>
-    
-
 </body>
 
 </html>
